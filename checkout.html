@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no">
+    <meta name="description" content="Deux Bandes - Montres de Haute Qualité à Petits Prix ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#100DD1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- The above tags *must* come first in the head, any other head content must come *after* these tags-->
+    <!-- Title-->
+    <title>Checkout - Deux Bandes - Montres de Haute Qualité à Petits Prix </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap">
+    <!-- Favicon-->
+    <link rel="icon" href="img/icons/icon-72x72.png">
+    <!-- Apple Touch Icon-->
+    <link rel="apple-touch-icon" href="img/icons/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/icons/icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/icon-180x180.png">
+    <!-- CSS Libraries-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/default/lineicons.min.css">
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Web App Manifest-->
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    <!-- Preloader-->
+    <div class="preloader" id="preloader">
+      <div class="spinner-grow text-secondary" role="status">
+        <div class="sr-only">Chargement...</div>
+      </div>
+    </div>
+    <!-- Header Area-->
+    <div class="header-area" id="headerArea">
+      <div class="container h-100 d-flex align-items-center justify-content-between">
+        <!-- Back Button-->
+        <div class="back-button"><a href="cart.html">
+            <svg class="bi bi-arrow-left" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path>
+            </svg></a></div>
+        <!-- Page Title-->
+        <div class="page-heading">
+          <h6 class="mb-0">Détails de facturation</h6>
+        </div>
+        <!-- Navbar Toggler-->
+        <div class="suha-navbar-toggler d-flex justify-content-between flex-wrap" id="suhaNavbarToggler"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+    <!-- Sidenav Black Overlay-->
+    <div class="sidenav-black-overlay"></div>
+    <!-- Side Nav Wrapper-->
+    <div class="suha-sidenav-wrapper" id="sidenavWrapper">
+      <!-- Sidenav Profile-->
+      <div class="sidenav-profile">
+        <div class="user-profile"><img src="img/bg-img/9.jpg" alt=""></div>
+        <div class="user-info">
+          <h6 class="user-name mb-0">Suha Sarah</h6>
+          <p class="available-balance">Credit <span>$<span class="counter">461</span></span></p>
+        </div>
+      </div>
+      <!-- Sidenav Nav-->
+      <ul class="sidenav-nav ps-0">
+        <li>
+          <a href="acceuil.html"><i class="lni lni-user"></i>Accueil</a>
+        </li>
+        <li>
+          <a href="produits.html"
+            ><i class="lni lni-alarm lni-tada-effect"></i>Produits</a
+          >
+        </li>
+        <li class="suha-dropdown-menu">
+          <a href="#"><i class="lni lni-cart"></i>Catégories</a>
+          <ul>
+            <li><a href="categorie-classic.html">Collection Classic</a></li>
+            <li><a href="categorie-heritage.html">Collection Héritage</a></li>
+            <li><a href="categorie-sport.html">Collection Sport</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="acceuil.html#flash-sale"
+            ><i class="lni lni-empty-file"></i>Solde</a
+          >
+        </li>
+        <li>
+          <a href="support.html"><i class="lni-life-ring"></i>Support</a>
+        </li>
+        <li>
+          <a href="settings.html"><i class="lni lni-cog"></i>Réglages</a>
+        </li>
+      </ul>
+      <!-- Go Back Button-->
+      <div class="go-home-btn" id="goHomeBtn">
+        <i class="lni lni-arrow-left"></i>
+      </div>
+    </div>
+      <div class="container">
+        <!-- Checkout Wrapper-->
+        <div class="checkout-wrapper-area py-3">
+          <!-- Billing Address-->
+                  <!-- Profile Wrapper-->
+        <div class="profile-wrapper-area py-3">
+
+          <!-- User Meta Data-->
+          <div class="card user-data-card">
+            <div class="card-body">
+              <form action="" method="">
+                <div class="mb-3">
+                  <div class="title mb-2"><i class="lni lni-user"></i><span>Nom Complet</span></div>
+                  <input id="name" class="form-control" required type="text" placeholder="Lamine Soulami">
+                </div>
+                <div class="mb-3">
+                  <div class="title mb-2"><i class="lni lni-phone"></i><span>Téléphone</span></div>
+                  <input id="phone" class="form-control" type="text" placeholder="0661626364">
+                </div>
+                <div class="mb-3">
+                  <div class="title mb-2"><i class="lni lni-envelope"></i><span>Adresse e-mail</span></div>
+                  <input id="email" class="form-control" type="email" placeholder="care@example.com">
+                </div>
+                <div class="mb-3">
+                  <div class="title mb-2"><i class="lni lni-map-marker"></i><span>Adresse de livraison</span></div>
+                  <input id="address" class="form-control" type="text" placeholder="AV al massira saknia N°23">
+                </div>
+                <div class="mb-3">
+                  <div class="title mb-2"><i class="lni lni-map-marker"></i><span>Ville</span></div>
+                  <select id="city" class="form-control" type="text" placeholder="Sélectionnez une ville" onchange="changeCity()">
+                    <option value="">Sélectionnez une ville</option>
+                   
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <div class="title mb-2"><i class="lni lni-map-marker"></i><span>Remarques</span></div>
+                  <textarea id="address" class="form-control" type="text" placeholder="Si vous avez autre chose à dire, veuillez l'écrire ici dans la langue avec laquelle vous êtes à l'aise."></textarea>
+                </div>
+
+                <div
+                  style="text-align: center; color: #e02c2c"
+                  
+                >
+                  <span id="error"></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+          <!-- Shipping Method Choose-->
+          <div class="shipping-method-choose mb-3">
+            <div class="card shipping-method-choose-title-card bg-danger">
+              <div class="card-body">
+                <h6 class="text-center mb-0 text-white">Montant à payez</h6>
+              </div>
+            </div>
+            <div class="card shipping-method-choose-card">
+              <div class="card-body">
+                <div class="shipping-method-choose">
+                  <ul class="ps-0">
+                    <li>
+                      <label style="padding-left: 0px" for="fastShipping">Prix de livraison :<span style="font-size: 14px" id="total">1 days delivary for $1.0</span><span style="font-size: 14px; margin-left: 0px;"> MAD</span></label>
+                    </li>
+                    <li>
+                      <label style="padding-left: 0px" for="normalShipping">Prix de la commande :<span style="font-size: 14px" id="shipping">3-7 days delivary for $0.4</span></label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Cart Amount Area-->
+          <div class="card cart-amount-area">
+            <div class="card-body d-flex align-items-center justify-content-between">
+              <h5 class="total-price mb-0">Totale : <span id="totalwithshipping"> MAD</span></h5><a class="btn btn-warning" href="#" onclick="validate(event)">Passer ma commande</a>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+    <!-- Internet Connection Status-->
+    <div class="internet-connection-status" id="internetStatus"></div>
+    <!-- Footer Nav-->
+    <div class="footer-nav-area" id="footerNav">
+      <div class="container h-100 px-0">
+        <div class="suha-footer-nav h-100">
+          <ul class="h-100 d-flex align-items-center justify-content-between ps-0">
+            <li class="active"><a href="acceuil.html"><i class="lni lni-home"></i>Acceuil</a></li>
+            <li><a href="support.html"><i class="lni lni-life-ring"></i>Support</a></li>
+            <li><a href="cart.html"><i class="lni lni-shopping-basket"></i>Panier</a></li>
+            <li><a href="produits.html"><i class="lni lni-heart"></i>Produits</a></li>
+            <li><a href="settings.html"><i class="lni lni-cog"></i>Réglages</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- All JavaScript Files-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/default/jquery.passwordstrength.js"></script>
+    <script src="js/default/dark-mode-switch.js"></script>
+    <script src="js/default/no-internet.js"></script>
+    <script src="js/default/active.js"></script>
+    <script src="js/pwa.js"></script>
+
+    <script>
+      const SHIPPING_PRICE = 
+      [
+        {
+          city: "Asilah",
+          price: 40
+        },
+        {
+          city: "Bouskoura",
+          price: 35
+        },
+        {
+          city: "Bouznika",
+          price: 35
+        },
+        {
+          city: "Casa",
+          price: 20
+        },
+        {
+          city: "Chefchaoun",
+          price: 40
+        },
+        {
+          city: "Dakhla",
+          price: 45
+        },
+        {
+          city: "Fes",
+          price: 40
+        },
+        {
+          city: "Fnideq",
+          price: 40
+        },
+        {
+          city: "Guelmim",
+          price: 45
+        },
+        {
+          city: "Had soualem",
+          price: 35
+        },
+        {
+          city: "Houcima",
+          price: 40
+        },
+        {
+          city: "Kenitra",
+          price: 0
+        },
+        {
+          city: "Laarache",
+          price: 40
+        },
+        {
+          city: "Laayoun",
+          price: 45
+        },
+        {
+          city: "Marrakech",
+          price: 40
+        },
+        {
+          city: "Martil",
+          price: 40
+        },
+        {
+          city: "Mdiq",
+          price: 40
+        },
+        {
+          city: "Meknes",
+          price: 40
+        },
+        {
+          city: "Mohammedia",
+          price: 35
+        },
+        {
+          city: "Nador",
+          price: 40
+        },
+        {
+          city: "Ouarzazate",
+          price: 45
+        },
+        {
+          city: "Oujda",
+          price: 40
+        },
+        {
+          city: "Rabat",
+          price: 40
+        },
+        {
+          city: "Safi",
+          price: 40
+        },
+        {
+          city: "Tanger",
+          price: 40
+        },
+        {
+          city: "Taroudante",
+          price: 45
+        },
+        {
+          city: "Taza",
+          price: 40
+        },
+        {
+          city: "Temara",
+          price: 40
+        },
+        {
+          city: "Tetouan",
+          price: 40
+        },
+        {
+          city: "Tiznite",
+          price: 45
+        },
+        
+      ]
+        
+      
+
+
+      window.addEventListener("load", () => {
+
+        let total = 0;
+        let products = localStorage.getItem("products")
+        if (products) {
+          products = JSON.parse(products);
+          
+          for (let i = 0; i < products.length; i++) {
+            total += parseFloat(products[i].price) * parseFloat(products[i].quantity);
+            
+            
+          }
+
+          $("#total").text(total)
+          $("#shipping").text("Livraison Gratuite")
+          $("#totalwithshipping").text(total + 0)
+        }
+
+
+        for (let i = 0; i < SHIPPING_PRICE.length; i++) {
+          const ele = SHIPPING_PRICE[i];
+          $("#city").append(`
+                    <option value="${ele.city.toLowerCase()}">${ele.city}</option>
+              `)
+        }
+
+      })
+
+      function validate(e) {
+        e.preventDefault()
+        let name = $("#name").val()
+        let email = $("#email").val()
+        let phone = $("#phone").val()
+        let address = $("#address").val()
+        let city = $("#city").val()
+        let notes = $("#notes").val()
+        if (!name || !email || !phone || isNaN(phone) || phone.length <=9 || !address || !city) {
+          $("#error").text("Please Enter Valid Info");
+          return;
+        }
+
+        $("#error").text("");
+
+
+        localStorage.setItem("user", JSON.stringify({name, email, phone, address, city, notes}));
+        localStorage.removeItem("products");
+
+        let products = localStorage.getItem("products");
+        if (!products) return;
+        
+        products = JSON.parse(products);
+        if (products.length <= 0) return;
+        let data = {
+          name,
+          email,
+          phone, 
+          address,
+          notes,
+          city,
+          items: products
+        }
+
+        $.ajax({
+          url: "http://localhost:1337/orders/create",
+          // url: "https://aqueous-woodland-82856.herokuapp.com/orders/create",
+          type: "post",
+          data: data ,
+          success: function (response) {
+            window.location.href = "payment-success.html"
+            // You will get response from your PHP page (what you echo or print)
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            console.log(textStatus, errorThrown);
+          }
+      });
+
+      }
+
+      function changeCity() {
+        let products = localStorage.getItem("products");
+        if (!products) return;
+
+        products = JSON.parse(products);
+        if (products.length >= 3) return;
+
+
+        let value = $("#city").val();
+        let city = SHIPPING_PRICE.find(x => x.city.toLowerCase() == value.toLowerCase());
+
+        if (city) {
+          $("#shipping").text(city.price+" MAD");
+          let total = $("#total").text();
+          console.log('---total', total);
+          $("#totalwithshipping").text(city.price + parseFloat(total))
+        }
+      }
+
+    </script>
+  </body>
+</html>
