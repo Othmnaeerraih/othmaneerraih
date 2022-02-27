@@ -49,7 +49,7 @@ const precacheAssets = [
     'js/pwa.js',
     'js/default/dark-mode-switch.js',
     'js/default/active.js',
-    'acceuil.html',
+    'index.html',
     'intro.html',
     'login.html',
     'manifest.json',
