@@ -29,3 +29,31 @@
   }
   
 })();
+
+
+
+window.addEventListener('load', (event) => {
+  console.log('-------------------------load');
+  document.documentElement.setAttribute('data-theme', 'dark');
+  localStorage.setItem('theme', 'dark');
+
+  // let path = window.location.pathname;
+  // console.log('-----path', path);
+  // if (path.includes("accueil")) {
+  //   let element = getElementById("accueil");
+  //   element.classList.add("active")
+  // }
+  // if (path.includes("support")) {
+  //   let element = getElementById("support");
+  //   element.classList.add("active")
+  // }
+  // if (path.includes("products")) {
+  //   let element = getElementById("products");
+  //   element.classList.add("active")
+  // }
+  // if (path.includes("settings")) {
+  //   let element = getElementById("settings");
+  //   element.classList.add("active")
+  // }
+
+});

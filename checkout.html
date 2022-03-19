@@ -162,10 +162,10 @@
                 <div class="shipping-method-choose">
                   <ul class="ps-0">
                     <li>
-                      <label style="padding-left: 0px" for="fastShipping">Prix de livraison :<span style="font-size: 14px" id="total">1 days delivary for $1.0</span><span style="font-size: 14px; margin-left: 0px;"> MAD</span></label>
+                      <label style="padding-left: 0px" for="fastShipping">Prix de livraison :<span style="font-size: 14px" id="shipping">1 days delivary for $1.0</span><span style="font-size: 14px; margin-left: 0px;"></span></label>
                     </li>
                     <li>
-                      <label style="padding-left: 0px" for="normalShipping">Prix de la commande :<span style="font-size: 14px" id="shipping">3-7 days delivary for $0.4</span></label>
+                      <label style="padding-left: 0px" for="normalShipping">Prix de la commande :<span style="font-size: 14px" id="total">3-7 days delivary for $0.4</span></label>
                     </li>
                   </ul>
                 </div>
@@ -435,6 +435,7 @@
           $("#shipping").text(city.price+" MAD");
           let total = $("#total").text();
           console.log('---total', total);
+          console.log();
           $("#totalwithshipping").text(city.price + parseFloat(total))
         }
       }
