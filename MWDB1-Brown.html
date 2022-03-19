@@ -468,6 +468,7 @@
     <script src="js/default/active.js"></script>
     <script src="js/pwa.js"></script>
 
+
     <script>
 
       function addToCart(e) {
@@ -500,6 +501,14 @@
 
         localStorage.setItem("products", JSON.stringify(products));
         updateBasketNumber();
+        displayAlert()
+      }
+
+      function displayAlert() {
+        document.getElementById("alert").style.display = "block";
+        setTimeout(() => {
+          document.getElementById("alert").style.display = "none";
+        }, 5000)
       }
 
       function goBack(e) {
